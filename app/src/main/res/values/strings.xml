@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Best Live News</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string-array name="navigation_drawer_items_name_array">
+        <item>Breaking News</item>
+        <item>Sports</item>
+        <item>Finances</item>
+        <item>Entertainment</item>
+        <item>Today in Tech</item>
+        <item>Life and Culture</item>
+
+    </string-array>
+    <string-array name="navigation_drawer_items_category_array">
+        <item>News</item>
+        <item>Sports</item>
+        <item>Finances</item>
+        <item>Entertainment</item>
+        <item>Tech</item>
+        <item>Howto</item>
+
+    </string-array>
+
+</resources>
