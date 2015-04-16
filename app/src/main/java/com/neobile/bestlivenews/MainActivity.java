@@ -34,6 +34,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class MainActivity extends ActionBarActivity implements VideoClickListener {
 
@@ -146,6 +148,10 @@ public class MainActivity extends ActionBarActivity implements VideoClickListene
                 mActivityTitle = drawerItemName[position];
                 getSupportActionBar().setTitle(mActivityTitle);
                 mDrawerLayout.closeDrawer(mDrawerList);
+
+                AdView mAdView = (AdView) findViewById(R.id.adView);
+                AdRequest adRequest = new AdRequest.Builder().build();
+                mAdView.loadAd(adRequest);
             }
         });
 
